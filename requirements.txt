@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+prometheus-fastapi-instrumentator
+transformers
+chroma
+faiss-cpu
+python-dotenv
+torch
+prometheus_client
+pydantic
+passlib[bcrypt]
+python-jose
+python-multipart

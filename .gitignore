@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Database files
+*.db
+feedback.db
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Prometheus binaries and data
+prometheus-*.tar.gz
+prometheus-*/data/
+prometheus-*/prometheus
+prometheus-*/promtool
+
+# Other
+.env
