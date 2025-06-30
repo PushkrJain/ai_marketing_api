@@ -1,4 +1,4 @@
-
+![Screenshot From 2025-05-14 23-13-08](https://github.com/user-attachments/assets/be19ddba-45ac-47a0-97dc-8ce865cefc4d)
 # 🧠 Real-Time Multi-Agent AI Marketing Content Generator
 
 ## 🔍 Project Summary
@@ -132,6 +132,10 @@ scrape_configs:
 
 - Visualize FastAPI metrics (requests, latency, errors).
 - Default: `http://localhost:3000`, login: `admin/admin`.
+
+- Grafana Dashboard
+  [Grafana Dashboard - AI Marketing Automation System](https://github.com/user-attachments/assets/9e813e83-63eb-48b0-8616-2752142a98a7)
+
 
 ---
 
