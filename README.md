@@ -67,13 +67,13 @@ Re-generation (Optional)
             -H "Content-Type: application/json"\
     -d '{
       "customer_profile": {
-    "name": "Alex",
-    "segment": "tech_savvy",
-    "interests": ["AI", "gadgets"]
-  },
-  "campaign_type": "email",
-  "product": "SmartHome Hub",
-  "offer": "Free shipping"
+        "name": "Alex",
+        "segment": "tech_savvy",
+        "interests": ["AI", "gadgets"]
+        },
+      "campaign_type": "email",
+      "product": "SmartHome Hub",
+      "offer": "Free shipping"
     }'
 ```
 
