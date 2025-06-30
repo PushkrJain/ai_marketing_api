@@ -63,10 +63,9 @@ Re-generation (Optional)
 ## 🧪 Example API Usage
 
 ```http
-POST /generate-content
-Content-Type: application/json
-
-{
+curl -X POST http://127.0.0.1:8000/generate \
+        -H "Content-Type: application/json"\
+-d '{
   "customer_profile": {
     "name": "Alex",
     "segment": "tech_savvy",
@@ -75,7 +74,7 @@ Content-Type: application/json
   "campaign_type": "email",
   "product": "SmartHome Hub",
   "offer": "Free shipping"
-}
+}'
 ```
 
 **Response:**
