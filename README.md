@@ -63,10 +63,10 @@ Re-generation (Optional)
 ## 🧪 Example API Usage
 
 ```http
-curl -X POST http://127.0.0.1:8000/generate \
-        -H "Content-Type: application/json"\
--d '{
-  "customer_profile": {
+    curl -X POST http://127.0.0.1:8000/generate \
+            -H "Content-Type: application/json"\
+    -d '{
+      "customer_profile": {
     "name": "Alex",
     "segment": "tech_savvy",
     "interests": ["AI", "gadgets"]
@@ -74,7 +74,7 @@ curl -X POST http://127.0.0.1:8000/generate \
   "campaign_type": "email",
   "product": "SmartHome Hub",
   "offer": "Free shipping"
-}'
+    }'
 ```
 
 **Response:**
